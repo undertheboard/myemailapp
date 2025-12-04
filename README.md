@@ -31,7 +31,19 @@ A simple, AI-powered email application designed specifically for elderly users. 
 2. Create a new API key for Gemini
 3. Save the key for later configuration
 
-### Step 2: Build the Java Application
+### Step 2: Download or Build the Java Application
+
+#### Option A: Download Pre-built JAR (Recommended)
+```bash
+# Clone the repository
+git clone https://github.com/undertheboard/myemailapp.git
+cd myemailapp
+
+# The pre-built JAR is in the releases directory
+cd releases
+```
+
+#### Option B: Build from Source
 ```bash
 # Clone the repository
 git clone https://github.com/undertheboard/myemailapp.git
@@ -45,6 +57,10 @@ mvn clean package
 
 ### Step 3: Run the Application
 ```bash
+# If using pre-built JAR
+java -jar releases/ai-email-app-1.0.0-jar-with-dependencies.jar
+
+# OR if you built from source
 java -jar target/ai-email-app-1.0.0-jar-with-dependencies.jar
 ```
 

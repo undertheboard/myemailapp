@@ -39,6 +39,10 @@ php-api/config/config.php.local
 dist/
 build/
 out/
+target/
+
+# But keep releases directory
+!releases/
 
 # Temporary files
 tmp/

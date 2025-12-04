@@ -1,0 +1,56 @@
+# Java
+*.class
+*.war
+*.ear
+target/
+*.log
+
+# Ignore JAR files except in releases directory
+*.jar
+!releases/*.jar
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config files with sensitive data
+config.properties
+*.key
+
+# PHP
+php-api/logs/
+php-api/sessions/
+php-api/config/config.php.local
+
+# Build artifacts
+dist/
+build/
+out/
+target/
+
+# But keep releases directory
+!releases/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# User data
+.myemailapp/

@@ -1,10 +1,13 @@
 # Java
 *.class
-*.jar
 *.war
 *.ear
 target/
 *.log
+
+# Ignore JAR files except in releases directory
+*.jar
+!releases/*.jar
 
 # Maven
 .mvn/

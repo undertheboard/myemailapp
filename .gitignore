@@ -1,0 +1,49 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+*.log
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config files with sensitive data
+config.properties
+*.key
+
+# PHP
+php-api/logs/
+php-api/sessions/
+php-api/config/config.php.local
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# User data
+.myemailapp/
